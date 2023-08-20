@@ -1,4 +1,4 @@
-package ru.alishev.springcourse.config;
+package ru.romanjavist.library.config;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;

@@ -1,13 +1,13 @@
-package ru.alishev.springcourse.controllers;
+package ru.romanjavist.library.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.alishev.springcourse.dao.BookDAO;
-import ru.alishev.springcourse.dao.PersonDAO;
-import ru.alishev.springcourse.models.Book;
-import ru.alishev.springcourse.models.Person;
+import ru.romanjavist.library.dao.BookDAO;
+import ru.romanjavist.library.dao.PersonDAO;
+import ru.romanjavist.library.models.Book;
+import ru.romanjavist.library.models.Person;
 
 import javax.validation.Valid;
 import java.util.Optional;
