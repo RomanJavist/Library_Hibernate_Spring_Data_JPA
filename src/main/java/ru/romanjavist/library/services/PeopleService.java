@@ -1,6 +1,5 @@
 package ru.romanjavist.library.services;
 
-
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -77,34 +76,4 @@ public class PeopleService {
             return Collections.emptyList();
         }
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

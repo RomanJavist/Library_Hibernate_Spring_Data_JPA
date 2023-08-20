@@ -11,9 +11,6 @@ import ru.romanjavist.library.util.PersonValidator;
 
 import javax.validation.Valid;
 
-/**
- * @author Neil Alishev
- */
 @Controller
 @RequestMapping("/people")
 public class PeopleController {

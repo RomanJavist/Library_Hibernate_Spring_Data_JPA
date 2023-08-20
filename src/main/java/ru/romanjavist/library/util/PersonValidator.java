@@ -8,7 +8,7 @@ import ru.romanjavist.library.models.Person;
 import ru.romanjavist.library.services.PeopleService;
 
 @Component
-public class PersonValidator implements Validator{
+public class PersonValidator implements Validator {
 
     private final PeopleService peopleService;
 
@@ -26,17 +26,7 @@ public class PersonValidator implements Validator{
     public void validate(Object o, Errors errors) {
         Person person = (Person) o;
 
-        if (peopleService.getPersonByFullName(person.getFullName()).isPresent()) {
-            errors.rejectValue("fullName", "", "Человек с таким именем уже существует");
-        }
+        if (peopleService.getPersonByFullName(person.getFullName()).isPresent())
+            errors.rejectValue("fullName", "", "Человек с таким ФИО уже существует");
     }
 }
-
-
-
-
-
-
-
-
-

@@ -12,9 +12,6 @@ import ru.romanjavist.library.services.PeopleService;
 
 import javax.validation.Valid;
 
-/**
- * @author Neil Alishev
- */
 @Controller
 @RequestMapping("/books")
 public class BooksController {
